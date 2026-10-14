@@ -209,6 +209,14 @@ Resources created: one `t3.micro` EC2 instance with a 10 GB disk and a public IP
 - Add `terraform plan` on pull requests and require approval before apply
 - Add an Elastic IP so the address doesn't change
 
-## License
 
+
+## Docker image account used for this project. 
+
+User Name: ensonukumar
+https://hub.docker.com/r/ensonukumar/demo-app
+
+![alt text](image-1.png)
+
+## License
 MIT
