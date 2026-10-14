@@ -70,7 +70,7 @@ data "aws_ssm_parameter" "al2023" {
 }
 
 resource "aws_instance" "app" {
-  ami                    = data.aws_ssm_parameter.al2023.value
+  ami                    = "ami-0720cb7af233b0529"
   instance_type          = var.instance_type
   subnet_id              = aws_subnet.public.id
   vpc_security_group_ids = [aws_security_group.web.id]
