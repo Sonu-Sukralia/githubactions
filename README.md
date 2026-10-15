@@ -210,7 +210,7 @@ Resources created: one `t3.micro` EC2 instance with a 10 GB disk and a public IP
 - Add an Elastic IP so the address doesn't change
 
 
-
+ 
 ## Docker image account used for this project. 
 
 User Name: ensonukumar
